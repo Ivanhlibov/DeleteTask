@@ -21,7 +21,7 @@ class TaskList extends React.Component {
     return (
       <div style={{ margin: '20px' }}>
         {this.state.tasks.map(task => (
-          <div key={task.id} style={{ marginBottom: '10px' }}>
+          <div key={task.id} >
             {task.text}
             <button onClick={() => this.handleDeleteTask(task.id)}>Видалити</button>
           </div>
