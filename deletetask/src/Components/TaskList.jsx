@@ -19,7 +19,7 @@ class TaskList extends React.Component {
 
   render() {
     return (
-      <div style={{ margin: '20px' }}>
+      <div >
         {this.state.tasks.map(task => (
           <div key={task.id} >
             {task.text}
